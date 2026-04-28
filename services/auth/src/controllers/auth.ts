@@ -85,6 +85,8 @@ export const loginUser = TryCatch(async (req: Request, res: Response) => {
 });
 
 
+
+
 const allowedRoles = ["customer", "rider", "seller"] as const;
  type Role = (typeof allowedRoles)[number];
  
