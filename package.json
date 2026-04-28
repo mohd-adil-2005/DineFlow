@@ -1,0 +1,10 @@
+{
+  "name": "dineflow",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix services/auth",
+    "dev:auth": "npm run dev --prefix services/auth",
+    "build:auth": "npm run build --prefix services/auth",
+    "start:auth": "npm run start --prefix services/auth"
+  }
+}
